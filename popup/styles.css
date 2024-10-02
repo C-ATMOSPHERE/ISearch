@@ -1,0 +1,132 @@
+:root {
+    --background-color: #181818;
+    --container-background: #242424;
+    --text-color: #ffffff;
+    --input-background: #333;
+    --input-focus-background: #2a2a2a;
+    --border-color: #444;
+    --border-radius: 6px;
+    --button-background: #ff5e5e;
+    --button-hover-background: #ff6666;
+    --error-background: #ffdddd;
+    --error-text-color: #d8000c;
+    --font-family: 'Arial', sans-serif;
+    --font-size: 16px;
+    --heading-font-size: 28px;
+    --padding: 12px;
+}
+
+
+body, h1, label {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: var(--font-family);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: var(--container-background);
+    padding: 30px;
+    max-width: 600px;
+    min-width: 300px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.7);
+    text-align: center;
+}
+
+h1 {
+    font-size: var(--heading-font-size);
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+textarea, select {
+    width: 100%;
+    padding: var(--padding);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    background-color: var(--input-background);
+    color: var(--text-color);
+    font-size: var(--font-size);
+    transition: border-color 0.3s, background-color 0.3s;
+}
+
+textarea {
+    min-height: 60px;
+    max-height: 150px;
+    resize: none;
+    overflow: hidden;
+}
+
+    textarea:focus, select:focus {
+        border-color: #ff6666;
+        background-color: var(--input-focus-background);
+        outline: none;
+    }
+
+select {
+    appearance: none;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="%23ffffff" viewBox="0 0 16 16"><path d="M8 12.5l-5-5h10l-5 5z"/></svg>'); /* Custom arrow */
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 16px;
+}
+
+    select:hover {
+        background-color: var(--input-focus-background);
+    }
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    padding: var(--padding) 20px;
+    background-color: var(--button-background);
+    border: none;
+    border-radius: var(--border-radius);
+    color: var(--text-color);
+    cursor: pointer;
+    font-size: var(--font-size);
+    transition: background-color 0.3s;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    button:hover {
+        background-color: var(--button-hover-background);
+    }
+
+.error {
+    background-color: var(--error-background);
+    color: var(--error-text-color);
+    padding: 10px;
+    border: 1px solid var(--error-text-color);
+    border-radius: var(--border-radius);
+    margin-top: 10px;
+    text-align: center;
+}

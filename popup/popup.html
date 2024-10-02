@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISearch</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>ISearch</h1>
+        <div class="input-group">
+            <!--<label for="searchInput">Search</label>-->
+            <textarea id="searchInput" placeholder="!w Bitcoin" required></textarea>
+        </div>
+        <div class="input-group">
+            <label for="searchEngine">Search Engine:</label>
+            <select id="searchEngine" required>
+                <option value="">-- Choose an engine --</option>
+            </select>
+        </div>
+        <button id="searchButton">Search</button>
+        <div id="errorDiv" class="error" style="display:none;"></div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>

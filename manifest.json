@@ -1,0 +1,15 @@
+{
+  "name": "ISearch",
+  "description": "Search using custom prefixes like !g for Google, !w for Wikipedia, !ya for Yummyanime.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_icon": {
+      "48": "include/imgs/icon48.png"
+    }
+  },
+  "icons": {
+    "48": "include/imgs/icon48.png"
+  }
+}
