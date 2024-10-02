@@ -1,4 +1,3 @@
-
 # ISearch Extension
 
 **ISearch** is a customizable extension that enhances the search experience by allowing users to quickly search through various search engines using predefined prefixes. Users can easily find content across different platforms, making their online browsing more efficient and streamlined.
