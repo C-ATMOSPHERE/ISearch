@@ -14,14 +14,14 @@
 
 1. Install the ISearch extension in your browser.
 2. Use the predefined prefixes to search on different platforms. For example:
-- `!g query`      for `Google searches`.
-- `!git query`    for `GitHub searches`.
-- `!w query`      for `Wikipedia searches`.
-- `!uc query`     for `UnknownCheats searches`.
-- `!ag query`     for `AnimeGo searches`.
-- `!av query`     for `AnimeVost searches`.
-- `!ya query`     for `YummyAnime searches`.
-- `!yt query`     for `YouTube searches`.
+- `!g query`    for `Google searches`.
+- `!git query`  for `GitHub searches`.
+- `!w query`    for `Wikipedia searches`.
+- `!uc query`   for `UnknownCheats searches`.
+- `!ag query`   for `AnimeGo searches`.
+- `!av query`   for `AnimeVost searches`.
+- `!ya query`   for `YummyAnime searches`.
+- `!yt query`   for `YouTube searches`.
 
 ## Installation
 
